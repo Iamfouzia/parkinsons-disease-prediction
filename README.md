@@ -15,7 +15,6 @@ This project takes a CSV file containing 22 biomarker features and predicts whet
 ## Dataset
 
 **Source:** UCI Machine Learning Repository
-**Source:** UCI Machine Learning Repository
 **Link:** https://archive.ics.uci.edu/ml/datasets/parkinsons
 
 | Property | Value |
