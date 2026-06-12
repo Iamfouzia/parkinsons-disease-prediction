@@ -2,7 +2,7 @@
 
 A machine learning web application that predicts Parkinson's Disease by analyzing clinical biomarker data uploaded as a CSV file using a Random Forest classifier trained on the UCI Parkinson's Dataset.
 
-**Live App:** [Click here to open](https://parkinsons-disease-prediction-kfhxzpzfe6ehsxkctpoytp.streamlit.app)
+**Live App:** (https://parkinsons-disease-prediction-kfhxzpzfe6ehsxkctpoytp.streamlit.app)
 
 ---
 
@@ -15,6 +15,7 @@ This project takes a CSV file containing 22 biomarker features and predicts whet
 ## Dataset
 
 **Source:** UCI Machine Learning Repository
+
 **Link:** https://archive.ics.uci.edu/ml/datasets/parkinsons
 
 | Property | Value |
@@ -64,7 +65,7 @@ Deploy via Streamlit
 |---|---|
 | Logistic Regression | Baseline linear model |
 | SVM (RBF kernel) | Non-linear classifier |
-| Random Forest | ✅ Selected — best stability |
+| Random Forest | ✅ Selected best stability |
 | KNN (k=5) | Distance-based classifier |
 
 **Why Random Forest was selected:**
