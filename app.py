@@ -113,7 +113,7 @@ st.markdown("""
 
     [data-testid="stFileUploaderDropzone"] {
         background: #1a1f2e !important;
-        border: 1px dashed #3b82f6 !important;
+        border: 1px dashed #2d3748 !important;
         border-radius: 12px !important;
     }
     [data-testid="stFileUploaderDropzone"] span {
