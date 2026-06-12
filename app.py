@@ -287,7 +287,7 @@ tab1, tab2 = st.tabs(["Upload File", "Quick Check"])
 
 with tab1:
     st.markdown("""<div class="info-box">
-        Upload a CSV file — all patients analyzed automatically.
+        Upload a CSV file and all patients analyzed automatically.
     </div>""", unsafe_allow_html=True)
 
     uploaded_file = st.file_uploader(
