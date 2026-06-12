@@ -395,10 +395,3 @@ with tab2:
             "AI prediction only — not a medical diagnosis. "
             "Please consult a qualified doctor."
         )
-
-st.markdown("""
-<div class="footer-note">
-    Built by Fouzia &nbsp;|&nbsp; AI Healthcare Project
-    &nbsp;|&nbsp; Random Forest · UCI Parkinson's Dataset
-</div>
-""", unsafe_allow_html=True)
