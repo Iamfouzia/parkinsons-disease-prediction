@@ -229,6 +229,19 @@ st.markdown("""
         padding-top: 1rem;
         border-top: 1px solid #1e2a3a;
     }
+    .stDownloadButton > button {
+    background: #2d6a9f !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+   }
+   .stDownloadButton > button:hover {
+    background: #1e4d7a !important;
+   }
+   div[data-testid="stFileUploader"] label p {
+   color: #e2e8f0 !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
