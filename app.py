@@ -6,7 +6,6 @@ import time
 
 st.set_page_config(
     page_title="Parkinson's AI Detector",
-    page_icon="🧠",
     layout="centered"
 )
 
@@ -246,7 +245,7 @@ model, scaler, feature_names = load_model()
 # hero
 st.markdown("""
 <div class="hero">
-    <h1>🧠 Parkinson's Disease AI Detector</h1>
+    <h1> Parkinson's Disease AI Detector</h1>
     <p>Early detection through voice biomarker analysis</p>
 </div>
 """, unsafe_allow_html=True)
@@ -271,7 +270,7 @@ with c3:
 
 st.markdown("<br>", unsafe_allow_html=True)
 
-tab1, tab2 = st.tabs(["📁  Upload CSV", "✏️  Manual Input"])
+tab1, tab2 = st.tabs(["Upload File", "Quick Check"])
 
 with tab1:
     st.markdown("""<div class="info-box">
